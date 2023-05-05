@@ -1,4 +1,7 @@
 {
     "name": "siliconmlws34",
-    "resource_group": "siliconrg34"
+    "resource_group": "siliconrg34",
+    "model_name": "Model",
+    "description": "Model train"
 }
+
