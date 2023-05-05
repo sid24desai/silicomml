@@ -1,11 +1,9 @@
 {
-    "workspace": "siliconmlws34",
-    "name": "model12"
-    "resource_group":"silicon34"
+    "name": "siliconmlws34",
+    "resource_group":"silicon34",
     "model_path": "moldel.pkl",
     "model_name": "model",
     "tags": "{'source':'SDK-Local', 'algorithm':'RandomForest'}",
     "properties": "{'Accuracy': 0.7866}",
     "description": "Model trained"
-
 }
