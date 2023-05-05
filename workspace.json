@@ -1,7 +1,11 @@
 {
     "name": "siliconmlws34",
     "resource_group": "siliconrg34",
-    "model_name": "Model",
-    "description": "Model train"
+    "create_workspace": false,
+    "friendly_name": "<your-friendly-name>",
+    "create_resource_group": true,
+    "location": "<your-workspace-location>",
+    "storage_account": "Microsoft.Storage/storageAccounts/siliconmlws340477433994",
+    "key_vault": "Microsoft.KeyVault/vaults/siliconmlws346751425841",
+    "app_insights": "Microsoft.1Insights/components/<your-app-insights-name>"
 }
-
