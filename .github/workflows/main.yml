@@ -9,11 +9,17 @@ jobs:
       id: checkout_repository
       uses: actions/checkout@v2
 
-    # AML Workspace Action
+  # AML Workspace Action
     - uses: Azure/aml-workspace@v1
-      id: siliconmlws34
+      id: aml_workspace
+      # required inputs as secrets
       with:
+        # required
         azure_credentials: ${{ secrets.AZURE_CREDENTIALS }}
+        # optional
+        parameters_file: "workspace.json"
+
+    
     
     # AML Run Action
     - uses: Azure/aml-run@v1
